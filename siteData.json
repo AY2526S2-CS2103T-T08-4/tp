@@ -129,6 +129,8 @@
         "listing-all-students-list": "Listing all students : list",
         "listing-all-assignments-get-assignments": "Listing all assignments: get /assignments",
         "viewing-details-of-a-student-get-students": "Viewing details of a student: get /students",
+        "viewing-milestone-progress-for-a-student-get-students-milestones": "Viewing milestone progress for a student: get /students ... /milestones",
+        "updating-one-milestone-for-a-student-set-students-milestones": "Updating one milestone for a student: set /students ... /milestones",
         "view-details-of-an-assignment-get-assignments": "View details of an assignment: get /assignments",
         "locating-students-by-name-find-students": "Locating students by name: find /students",
         "editing-a-student-edit-students": "Editing a student: edit /students",
