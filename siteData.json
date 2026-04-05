@@ -38,7 +38,6 @@
     },
     {
       "src": "DeveloperGuide.md",
-      "title": "Developer Guide",
       "headings": {
         "letutor-developer-guide": "LeTutor Developer Guide",
         "acknowledgements": "Acknowledgements",
@@ -99,7 +98,6 @@
     },
     {
       "src": "SettingUp.md",
-      "title": "Setting up and getting started",
       "headings": {
         "setting-up-and-getting-started": "Setting up and getting started",
         "setting-up-the-project-in-your-computer": "Setting up the project in your computer",
@@ -119,8 +117,8 @@
     },
     {
       "src": "UserGuide.md",
-      "title": "User Guide",
       "headings": {
+        "layout-default-md-title-and-quot-user-guide-and-quot-pagenav-3": "layout: default.md\n- title: &quot;User Guide&quot;\npageNav: 3",
         "letutor-user-guide": "LeTutor User Guide",
         "quick-start": "Quick start",
         "features": "Features",
