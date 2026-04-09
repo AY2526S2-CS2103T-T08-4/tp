@@ -51,7 +51,6 @@
         "common-classes": "Common classes",
         "implementation": "Implementation",
         "find-group-command": "Find group command",
-        "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
         "product-scope": "Product scope",
@@ -75,8 +74,7 @@
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
         "deleting-a-person": "Deleting a person",
-        "finding-students-and-assignments-by-group": "Finding students and assignments by group",
-        "saving-data": "Saving data"
+        "finding-students-and-assignments-by-group": "Finding students and assignments by group"
       },
       "headingKeywords": {}
     },
