@@ -89,19 +89,9 @@ java -jar letutor.jar
 
 8. Type a command into the command box and press <kbd>Enter</kbd> to run it.
 
-### First commands to try
-
-If you are opening LeTutor for the first time, try these commands in order:
-
-```text
-list                                        # Shows all students and assignments currently saved in LeTutor
-add /students {John Doe; 98765432; johnd@example.com; Sec3A}    # Adds a new student named John Doe
-get /assignments                            # Shows all assignments currently saved in LeTutor
-find /students John                         # Searches for students whose name includes "John"
-help                                        # Opens the help information
-```
-
-> **Tip:** If you ever feel lost after filtering results, use `list` to return to the full student list.
+> **Tip** 
+> If you ever feel lost after filtering results, use `list` to return to the full student and assignment list. 
+{: .tip}
 
 ---
 
@@ -151,7 +141,7 @@ View-only computed status:
 * `OVERDUE`
 
 > **Note:** `OVERDUE` is not manually set. It appears automatically when the due date has passed and the milestone is still incomplete.
-
+{: .note}
 ---
 
 ## Features
@@ -161,23 +151,28 @@ View-only computed status:
 > **Note:**
 > Words in `UPPER_CASE` are values you must supply.
 > Example: in `get /students STUDENT_ID`, `STUDENT_ID` should be replaced with something like `S1`.
+{: .note}
 
 > **Note:**
 > Values inside `< >` are placeholders shown for explanation only. Do not type the `<` and `>` symbols literally.
+{: .note}
 
 > **Note:**
 > Fields inside `{ ... }` must be entered in the stated order.
+{: .note}
 
 > **Note:**
 > Multiple groups inside one field should be separated by commas.
 > Example: `Sec3A, Sec3B`
+{: .note}
 
 > **Note:**
 > Commands such as `help`, `list`, `clear`, and `exit` ignore extra text after them.
+{: .note}
 
 > **Caution:**
 > If you are copying commands from a PDF or document, check that spaces were copied correctly before pasting into LeTutor.
-
+{: .caution}
 ---
 
 ### Viewing help : `help`
@@ -221,6 +216,7 @@ Examples:
 
 > **Tip:**
 > Use consistent group names across students and assignments. For example, avoid mixing `Sec3A`, `sec3a`, and `SEC3A`.
+{: .tip}
 
 **Expected output:** The student appears in the list and a confirmation message is shown.
 
@@ -249,6 +245,7 @@ Examples:
 
 > **Note:**
 > An assignment can belong to more than one group.
+{: .note}
 
 **Expected output:** The assignment appears in the assignment list and a confirmation message is shown.
 
@@ -264,6 +261,7 @@ Format: `list`
 
 > **Tip:**
 > Run `list` after using a find or group filter if you want to return to the full student list & full assignment list.
+{: .tip}
 
 **Expected output:** The student list resets to show all students, assignment list shows all assignments.
 
@@ -324,6 +322,7 @@ Example milestone output:
 
 > **Tip:**
 > This command is useful when preparing for a lesson and you want to check a student's outstanding work quickly.
+{: .tip}
 
 **Expected output:** The student's milestone progress is shown.
 
@@ -357,6 +356,7 @@ Examples:
 
 > **Note:**
 > Use `NOT_STARTED` if you want to reset a milestone to incomplete.
+{: .note}
 
 **Expected output:** The milestone status is updated and a confirmation message is shown.
 
@@ -413,6 +413,8 @@ Examples:
 
 > **Tip:**
 > Use this command before editing or deleting a student if you need to narrow down the list first.
+{: .tip}
+
 
 **Expected output:** Only matching students remain visible in the student list.
 
@@ -464,6 +466,7 @@ Examples:
 
 > **Tip:**
 > Use empty fields carefully. Keep the semicolons in place so LeTutor can tell which field you are skipping.
+{: .tip}
 
 **Expected output:** The student's details are updated and a confirmation message is shown.
 
@@ -507,6 +510,7 @@ Example:
 
 > **Warning:**
 > Deletion is permanent and cannot be undone within the app.
+{: .warning
 
 **Expected output:** The student is removed and a confirmation message is shown.
 
@@ -526,6 +530,7 @@ Example:
 
 > **Warning:**
 > Deleting an assignment removes it from the system permanently.
+{: .note}
 
 **Expected output:** The assignment is removed and a confirmation message is shown.
 
@@ -541,6 +546,7 @@ Format: `clear`
 
 > **Warning:**
 > This permanently deletes all student and assignment data in the app.
+{: .note}
 
 **Expected output:** The lists become empty and a confirmation message is shown.
 
@@ -572,9 +578,11 @@ Advanced users may update the data file directly.
 
 > **Caution:**
 > If the file is edited into an invalid format, LeTutor may discard the data and start with an empty file on the next run.
+{: .caution}
 
 > **Warning:**
 > Only edit the data file if you are confident that you understand the structure.
+{: .warning
 
 ---
 
