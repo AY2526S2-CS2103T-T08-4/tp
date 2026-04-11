@@ -115,6 +115,7 @@
     },
     {
       "src": "UserGuide.md",
+      "title": "User Guide",
       "headings": {
         "letutor-user-guide": "LeTutor User Guide",
         "who-is-this-guide-for": "Who is this guide for?",
