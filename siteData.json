@@ -132,7 +132,7 @@
         "notes-about-the-command-format": "Notes about the command format",
         "viewing-help-help": "Viewing help : help",
         "adding-a-student-add-students": "Adding a student : add /students",
-        "adding-an-assignment-add-assignments": "Adding an assignment : add /assignments",
+        "adding-an-assignment": "Adding an assignment",
         "listing-all-students-and-assignments-list": "Listing all students and assignments: list",
         "listing-all-students-only-get-students": "Listing all students only: get /students",
         "viewing-a-student-s-details-get-students-studentid": "Viewing a student's details : get /students &lt;studentId&gt;",
