@@ -51,6 +51,8 @@
         "common-classes": "Common classes",
         "implementation": "Implementation",
         "find-group-command": "Find group command",
+        "edit-student-command": "Edit student command",
+        "edit-assignment-command": "Edit assignment command",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
         "product-scope": "Product scope",
